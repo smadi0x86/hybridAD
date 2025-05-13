@@ -8,6 +8,7 @@ Every folder is an independent project, and you can use them separately. The pro
 
 ## Projects
 
+- `learn`: Learning resources to help you understand the concepts and techniques used in on-prem active directory and Entra ID.
 - `cyberRange`: Terraform code to create different Azure security labs. The labs are designed to help you learn and practice various security concepts and techniques in a controlled environment.
 - `hybridSetup`: Bicep files and PowerShell scripts to set up a hybrid identity lab using Entra Connect.
 - `vulnerableEntraID`: A python tool that uses Terraform to create a vulnerable Azure AD tenant. It is designed to help you learn and practice various attack paths in a controlled environment.
@@ -16,6 +17,14 @@ Every folder is an independent project, and you can use them separately. The pro
 
 These projects are designed to be used together, and you can use them in any order. However, I recommend the following order to get the most out of them:
 
+- Start with the `learn` project to understand the concepts and techniques used in on-premise Active Directory and Entra ID.
 - Start with the `hybridSetup` project to setup an on-premise Active Directory and Entra ID environment then connect them together using Entra Connect.
 - Use the `vulnerableEntraID` project to create a vulnerable Entra ID tenant and practice various attack paths.
 - Use the `cyberRange` project to create different Azure security labs and practice various security concepts and techniques in a controlled environment.
+
+## Credits
+
+- https://www.purplecloud.network/
+- https://github.com/mvelazc0/BadZure
+- https://github.com/neontiger12/EntraConnect
+- https://github.com/dirkjanm/roadtools_hybrid

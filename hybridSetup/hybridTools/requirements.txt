@@ -1,0 +1,6 @@
+cryptography
+impacket
+ldap3
+pyasn1
+roadlib
+pycryptodome

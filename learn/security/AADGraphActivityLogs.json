@@ -1,0 +1,186 @@
+{
+  "id": "AADGraphActivityLogs",
+  "name": "AADGraphActivityLogs",
+  "tableType": "Microsoft",
+  "description": "AAD Graph Activity Logs provide details of legacy API requests made to Azure Active Directory Graph for resources in the tenant.",
+  "timespanColumn": "TimeGenerated",
+  "tableAPIState": "Any",
+  "isTroubleshootingAllowed": true,
+  "columns": [
+    {
+      "name": "TenantId",
+      "type": "string"
+    },
+    {
+      "name": "TimeGenerated",
+      "type": "datetime",
+      "description": "The date and time the request was received."
+    },
+    {
+      "name": "Location",
+      "type": "string",
+      "description": "The name of the region that served the request."
+    },
+    {
+      "name": "RequestId",
+      "type": "string",
+      "description": "The identifier representing the request."
+    },
+    {
+      "name": "OperationName",
+      "type": "string",
+      "description": "The name of the operation performed on the resource."
+    },
+    {
+      "name": "OperationVersion",
+      "type": "string",
+      "description": "The API version of the operation."
+    },
+    {
+      "name": "Category",
+      "type": "string",
+      "description": "The log category, e.g., AzureADGraphActivityLogs."
+    },
+    {
+      "name": "ResultSignature",
+      "type": "string",
+      "description": "The HTTP response status or outcome of the operation."
+    },
+    {
+      "name": "DurationMs",
+      "type": "int",
+      "description": "The duration of the request in milliseconds."
+    },
+    {
+      "name": "Level",
+      "type": "string",
+      "description": "The severity level of the event (e.g., Informational)."
+    },
+    {
+      "name": "RequestMethod",
+      "type": "string",
+      "description": "The HTTP method used (e.g., GET, POST)."
+    },
+    {
+      "name": "ResponseSizeBytes",
+      "type": "int",
+      "description": "The size of the response returned to the caller, in bytes."
+    },
+    {
+      "name": "SignInActivityId",
+      "type": "string",
+      "description": "The identifier representing the sign-in activity."
+    },
+    {
+      "name": "Roles",
+      "type": "string",
+      "description": "The roles assigned in the token claims."
+    },
+    {
+      "name": "TokenIssuedAt",
+      "type": "datetime",
+      "description": "The timestamp when the token was issued."
+    },
+    {
+      "name": "AppId",
+      "type": "string",
+      "description": "The identifier of the application making the request."
+    },
+    {
+      "name": "UserId",
+      "type": "string",
+      "description": "The identifier of the user making the request."
+    },
+    {
+      "name": "ServicePrincipalId",
+      "type": "string",
+      "description": "The identifier of the service principal making the request."
+    },
+    {
+      "name": "Scopes",
+      "type": "string",
+      "description": "The scopes included in the token claims."
+    },
+    {
+      "name": "IdentityProvider",
+      "type": "string",
+      "description": "The identity provider used during authentication."
+    },
+    {
+      "name": "ClientAuthMethod",
+      "type": "string",
+      "description": "The authentication method used by the client."
+    },
+    {
+      "name": "Wids",
+      "type": "string",
+      "description": "The WIDs from the token claims."
+    },
+    {
+      "name": "CallerIpAddress",
+      "type": "string",
+      "description": "The IP address of the caller making the request."
+    },
+    {
+      "name": "UserAgent",
+      "type": "string",
+      "description": "The user agent string provided by the client."
+    },
+    {
+      "name": "RequestUri",
+      "type": "string",
+      "description": "The URI of the request sent to the AAD Graph API."
+    },
+    {
+      "name": "SessionId",
+      "type": "string",
+      "description": "The session identifier from the request context."
+    },
+    {
+      "name": "DeviceId",
+      "type": "string",
+      "description": "The identifier of the device used in the request."
+    },
+    {
+      "name": "ActorType",
+      "type": "string",
+      "description": "The type of actor making the request (e.g., User, Application)."
+    },
+    {
+      "name": "SourceSystem",
+      "type": "string"
+    },
+    {
+      "name": "Type",
+      "type": "string",
+      "description": "The name of the table"
+    },
+    {
+      "name": "_IsBillable",
+      "type": "string"
+    },
+    {
+      "name": "_BilledSize",
+      "type": "real"
+    },
+    {
+      "name": "_ResourceId",
+      "type": "string",
+      "description": "A unique identifier for the resource that the record is associated with"
+    },
+    {
+      "name": "_SubscriptionId",
+      "type": "string",
+      "description": "A unique identifier for the subscription that the record is associated with"
+    }
+  ],
+  "related": {
+    "categories": ["audit", "security"],
+    "resourceTypes": ["microsoft.azureadgraph/tenants"],
+    "solutions": ["LogManagement"],
+    "queries": [
+      "00d2b78e-df02-42d4-ae3a-27db94a534fc",
+      "c4ee740a-6d0e-4a87-b998-663d2d36fca0"
+    ]
+  }
+}
