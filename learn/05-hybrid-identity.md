@@ -167,4 +167,4 @@ Hybrid identity links **on-prem Active Directory (AD DS)** with **Azure AD / Ent
 
 ---
 
-Next: (`06-common-questions.md`)
+Next: [Common Questions](06-common-questions.md)

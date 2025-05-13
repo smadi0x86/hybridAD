@@ -107,4 +107,4 @@
 
 ---
 
-Next: Security Fundamentals (`security/01-security-fundamentals.md`)
+Next: [Security Fundamentals](security/01-security-fundamentals.md)

@@ -188,4 +188,4 @@ Tokens are JWTs (RS256) signed by Microsoft keys; validate using public JWKs fro
 
 ---
 
-Next: Entra-specific governance (entitlement management, lifecycle workflows, PIM) (`04-entra-id-governance.md`).
+Next: [Entra-specific governance](`04-entra-id-governance.md`).

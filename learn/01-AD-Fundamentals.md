@@ -138,4 +138,4 @@ AD allows:
 
 ---
 
-Next: On-Prem AD Core (`02-on-prem-AD-core.md`)
+Next: [On-Prem AD Core](02-on-prem-AD-core.md)

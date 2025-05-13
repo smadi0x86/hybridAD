@@ -4,8 +4,6 @@ This folder contains deep technical notes for mastering identity concepts across
 
 > ⚠️ This is not official Microsoft documentation. Use it for learning, not production config baselines.
 
----
-
 ## Learn Overview
 
 ### Core
@@ -28,8 +26,6 @@ This folder contains deep technical notes for mastering identity concepts across
 | `03-graph-logs.md`            | Explains Microsoft Graph activity auditing, including what gets logged, and how PowerShell modules differ |
 | `AADGraphActivityLogs.json`   | Full schema of the AADGraphActivityLogs table used for legacy Graph API monitoring                        |
 
----
-
 ## Why This Exists
 
 Many tutorials oversimplify AD and Entra concepts. This repo focuses on:
@@ -39,16 +35,12 @@ Many tutorials oversimplify AD and Entra concepts. This repo focuses on:
 - **Operational readiness**: covers both administrative practice and security auditing
 - **Tooling awareness**: integrates PowerShell, Graph, Sentinel, and Log Analytics knowledge
 
----
-
 ## Who Is This For?
 
 - Identity engineers
 - Cloud architects
 - Security operations teams
 - Learners targeting hybrid or enterprise-scale environments
-
----
 
 ## Coming Soon (TODO)
 

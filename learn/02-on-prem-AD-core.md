@@ -124,4 +124,4 @@
 
 ---
 
-Next: Azure AD core (`03-azure-AD-core.md`).
+Next: [Azure AD core](03-azure-AD-core.md).

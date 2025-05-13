@@ -147,4 +147,4 @@ SigninLogs
 
 ---
 
-Next: Graph Activity Logs (`03-graph-logs.md`)
+Next: [Graph Activity Logs](03-graph-logs.md)

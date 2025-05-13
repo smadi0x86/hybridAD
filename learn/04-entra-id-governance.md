@@ -137,4 +137,4 @@ Entra ID Governance expands Azure AD's core identity management to include acces
 
 ---
 
-Ready for hybrid identity internals next? (`05-hybrid-identity.md`)
+[Ready for hybrid identity internals next?](05-hybrid-identity.md)
