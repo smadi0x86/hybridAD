@@ -1,6 +1,7 @@
 # HybridAD Playground
 
 ![image](https://github.com/user-attachments/assets/62067d10-3e9f-4f1e-93b0-6ce32f25a944)
+![image](https://github.com/user-attachments/assets/82f93cd8-cb25-419d-8c59-8574e5973256)
 
 This repository contains a collection of on-premise active directory and Entra ID projects all gathered in one place.
 
